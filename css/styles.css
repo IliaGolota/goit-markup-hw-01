@@ -7,7 +7,8 @@ body {
 	/*вторичный цвет фона #2F303A; */
 	/*основной цвет текста*/
 	--primary-text-color: #757575;
-
+	/*вторичный цвет текста*/
+	--secondary-text-color: #212121;
 	/*цвет акцента*/
 	--accent-color: #2196F3;
 	/*основной цвет фона*/
@@ -25,7 +26,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: #212121;
+	color:var(--secondary-text-color)
 }
 
 .list .link:hover,
@@ -54,7 +55,13 @@ body {
 
 
 .btn.secondary{
-background-color:#F5F4FA ;	
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color:var(--secondary-text-color)
+	background-color:#F5F4FA ;	
 }
 
 .btn.secondary:hover,
